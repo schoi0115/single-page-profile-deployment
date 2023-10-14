@@ -7,7 +7,7 @@ import Page4 from '../src/components/Page4'
 
 function App() {
   return (
-    <div>
+    <div className="bgcolor">
       <Home />
       <Page1 />
       <Page2 />

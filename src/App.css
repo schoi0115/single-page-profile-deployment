@@ -18,8 +18,10 @@
 }
 
 .home {
+  margin-top: 10%;
   justify-content: center;
   align-items: center;
+  margin-left: 9%;
 }
 
 .home h1 {
@@ -45,8 +47,9 @@
 
 .typearea,
 .typearea_application {
-  margin-left: 17%;
+
   margin-top: 5%;
+  margin-left: 20%;
 }
 
 .typearea_application p {
@@ -74,187 +77,6 @@
   margin-right: 20%;
 }
 
-.picContainer {
-  margin-top: -35%;
-  max-height: 100%;
-  margin-left: 15%;
-}
-
-.Page1-pics1 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-
-}
-
-.Page1-pics2 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-
-  margin-left: 130px;
-}
-
-.Page1-pics3 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-
-  margin-left: 260px;
-}
-
-.Page1-pics4 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-
-  margin-left: 390px;
-}
-
-.Page1-pics5 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 100px;
-  margin-left: 520px;
-}
-
-.Page1-pics6 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-
-  margin-left: 650px;
-}
-
-.Page1-pics7 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 180px;
-  margin-left: 650px;
-}
-
-.Page1-pics8 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 100px;
-  margin-left: 910px;
-}
-
-.Page1-pics9 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 100px;
-  margin-left: 1040px;
-}
-
-.Page1-pics10 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 180px;
-  margin-left: 1040px;
-}
-
-.Page1-pics11 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 100px;
-  margin-left: 1170px;
-}
-
-.Page1-pics12 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 180px;
-  margin-left: 1170px;
-}
-
-.Page1-pics13 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 200px;
-  margin-left: 260px;
-}
-
-.Page1-pics14 {
-  position: fixed;
-  max-width: 110px;
-  max-height: 170px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 100px;
-  margin-left: 780px;
-}
-
-/* 
-.Page1-pics1:hover,
-.Page1-pics2:hover,
-.Page1-pics3:hover,
-.Page1-pics4:hover,
-.Page1-pics5:hover,
-.Page1-pics6:hover,
-.Page1-pics7:hover,
-.Page1-pics8:hover,
-.Page1-pics9:hover,
-.Page1-pics10:hover,
-.Page1-pics11:hover,
-.Page1-pics12:hover,
-.Page1-pics13:hover,
-.Page1-pics14:hover {
-  position: flex;
-  max-width: 700px;
-  max-height: 450px;
-  border-radius: 5px;
-  margin: 5px;
-
-} */
-
-/* .home .shawnbio {
-  position: fixed;
-  max-width: 30%;
-  width: 80%;
-  border-radius: 10px;
-  width: 100%;
-  border: 8px solid #f8d7d7;
-  padding: 2%;
-  box-shadow: 0 8px 8px 8px rgba(255, 255, 255, 0.3);
-  color: white;
-  margin-left: 5%;
-  margin-right: 25%; 
-  margin-top: 15%;
-} */
 .appgithub {
   font-size: 2vw;
 }
@@ -362,12 +184,20 @@ span {
   column-count: 2;
   display: flex;
 }
+body {
+  background-color: #f0f0f0; /* Background color */
+}
 
 .bgcolor {
+  /* position: absolute;
+  background: linear-gradient(-45deg, #df6d6d 25%, #ffc4c4 25%),
+  linear-gradient(75deg, #df6d6d 25%, #ffc4c4 25%),
+  linear-gradient(80deg, #df6d6d 25%, #ffc4c4 25%),
+  linear-gradient(150deg, #df6d6d 25%, white 25%);
+  height: 800%;
+  max-width: 100%;
+  transition: background-color 0.5s ease; */
   position: absolute;
-  background: linear-gradient(-45deg, #df6d6d 50%, #ffc4c4 50%);
-  height: 150%;
-  width: 100%;
-
-  transition: background-color 0.5s ease;
+  background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%); /* Create stripes using a linear gradient */
+  background-size: 10px 10px; /* Adjust the size of the stripes */
 }
