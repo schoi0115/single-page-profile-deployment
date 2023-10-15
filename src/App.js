@@ -15,27 +15,27 @@ function App() {
           <ul className="link-menu">
             <li>
               <Link to='#home'>
-                Home
+                Profile
               </Link>
             </li>
             <li>
               <Link to='#page1'>
-                page1
+                Personality
               </Link>
             </li>
             <li>
               <Link to='#page2'>
-                page2
+                Experience
               </Link>
             </li>
             <li>
               <Link to='#page3'>
-                page3
+                Applications
               </Link>
             </li>
-            <li>
+            <li className="nav-width">
               <Link to='#page4'>
-                page4
+                Cover Letter
               </Link>
             </li>
           </ul>
@@ -46,6 +46,7 @@ function App() {
         <Page2 />
         <Page3 />
         <Page4 />
+
       </div>
     </BrowserRouter>
 

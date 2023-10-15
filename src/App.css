@@ -1,6 +1,7 @@
 * {
   /* font-family: Comfortaa; */
-  font-family: 'Patrick Hand', cursive;
+  font-family: Comfortaa;
+  /* font-family: 'Patrick Hand', cursive; */
   /* font-family: 'Indie Flower', cursive; */
 }
 
@@ -11,27 +12,72 @@
 /* Styles for screens with a width of at least 360px (typical for small Android phones) */
 @media screen and (min-width: 360px) {
   .your-element {
-    min-width: 200px; /* Minimum width for the element on Android phones */
-    max-width: 400px; /* Maximum width for the element on Android phones */
-    font-size: 16px; /* Same font size for Android phones */
+    min-width: 200px;
+    /* Minimum width for the element on Android phones */
+    max-width: 400px;
+    /* Maximum width for the element on Android phones */
+    font-size: 16px;
+    /* Same font size for Android phones */
   }
 }
 
 /* Styles for screens with a width of at least 768px (typical for larger Android devices or tablets) */
 @media screen and (min-width: 768px) {
   .your-element {
-    min-width: 300px; /* Minimum width for the element on larger Android devices */
-    max-width: 600px; /* Maximum width for the element on larger Android devices */
-    font-size: 16px; /* Same font size for Android phones */
+    min-width: 300px;
+    /* Minimum width for the element on larger Android devices */
+    max-width: 600px;
+    /* Maximum width for the element on larger Android devices */
+    font-size: 16px;
+    /* Same font size for Android phones */
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color:black
+  }
+}
 
 html {
   scroll-behavior: smooth;
+  cursor: alias;
+  font-weight: bold;
 }
 
+span {
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+  font-family: 'Indie Flower', cursive;
+}
 
+body {
+  height: 100vh;
+  background-color: #ffffff;
+  /* background: linear-gradient(to right,
+      white 0%,
+      rgb(175, 175, 175) 50%,
+      rgb(103, 103, 103) 50%,
+      rgb(255, 255, 255) 100%); */
+}
+
+.nav-width{
+  width: 105px;
+}
+.resume {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
 .lheader {
   margin-left: 2.5%;
@@ -40,10 +86,7 @@ html {
 .link {
   position: fixed;
   margin-left: 0%;
-
   width: 12%;
-
-
 }
 
 .link-menu {
@@ -59,34 +102,44 @@ html {
   margin-top: 10%;
   justify-content: center;
   align-items: center;
-  margin-left: 9%;
+  margin-left: 15%;
+  margin-right: 9%;
 }
 
-.home h1 {
+.home div {
+  font-weight: bold;
+}
+
+.name {
   font-size: 4vw;
   /* Adjust this value as needed */
   font-weight: bold;
-  text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f;
+  /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
   font-family: Comfortaa;
   margin-top: 5%;
-  margin-left: 20%
-    /* Move to the top */
+  text-align: center;
+  /* Move to the top */
+
+
 }
 
-.home h2 {
+.title {
   font-size: 2vw;
   /* Adjust this value as needed */
   font-weight: bold;
-  text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f;
+  /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
   font-family: Comfortaa;
-  margin-top: 5%;
-  margin-left: 30%
+  margin-top: 10%;
+  margin-left: 38%;
+
 }
 
 .typearea,
 .typearea_application {
   margin-top: 5%;
   margin-left: 20%;
+  margin-right: 20%;
+
 }
 
 .typearea_application p {
@@ -94,10 +147,21 @@ html {
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
-  max-height: 60em;
+  /* max-height: 80em; */
   line-height: 1.4em;
   columns: 2;
+  margin-right: 20%;
 }
+
+.skills {
+  text-align: center;
+}
+
+.skill-language {
+  columns: 3;
+}
+
+
 .home Img {
 
   height: auto;
@@ -138,71 +202,6 @@ html {
   align-items: center;
 }
 
-.menu-bars {
-  margin-left: 2%;
-  font-size: 2vw;
-  background: none;
-  text-align: center;
-}
-
-.nav-menu {
-  background-color: rgb(133, 81, 81);
-  width: 20%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  text-align: center;
-  left: -100%;
-  transition: 0.85s;
-}
-
-.nav-menu.active {
-  left: -5%;
-  transition: 0.35s;
-}
-
-.nav-text {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  list-style: none;
-  height: 2.5vw;
-}
-
-.nav-text a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5vw;
-  width: 140%;
-  height: 3vw;
-  align-items: center;
-  background-color: rgb(133, 81, 81);
-  border-radius: 5px;
-}
-
-.nav-text a:hover {
-  background-color: rgb(165, 170, 245);
-}
-
-.nav-menu-items {
-  width: 100%;
-}
-
-.navbar-toggle {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-
-span {
-  margin-left: 1.5%;
-  margin-top: 1.5%;
-  font-family: 'Indie Flower', cursive;
-}
-
 .nav-color {
   position: fixed;
   background-color: rgb(218, 127, 127);
@@ -217,11 +216,6 @@ span {
   display: flex;
 }
 
-body {
-  background-color: #f0f0f0;
-  /* Background color */
-}
-
 .bgcolor {
   /* position: absolute;
   background: linear-gradient(-45deg, #df6d6d 25%, #ffc4c4 25%),
@@ -232,7 +226,7 @@ body {
   max-width: 100%;
   transition: background-color 0.5s ease; */
   position: absolute;
-  background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%);
+  /* background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%); */
   /* Create stripes using a linear gradient */
   background-size: 10px 10px;
   /* Adjust the size of the stripes */
