@@ -7,7 +7,7 @@ function Page3() {
 
 
     return (
-        <div className="typearea_application">
+        <div className="typearea_application" id="page3">
             <h1>Applications</h1>
             <p>
                 <a href="https://github.com/schoi0115" className="appgithub">{"Shawn's Git Hub"} </a>

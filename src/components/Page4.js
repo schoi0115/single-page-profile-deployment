@@ -10,9 +10,9 @@ function Page4() {
     //     window.open(pdf);
     // }
     return (
-        <div className="typearea">
+        <div className="typearea" id="page4">
 
-            <h1>Shawn Choi</h1>
+            <h1>Cover Letter</h1>
             {/* <a className="resumePreview" onClick={onResumeClick}> Resume (Click to see the preview) </a> */}
 
 
@@ -21,20 +21,29 @@ function Page4() {
 
             <p className="experience">
                 <br />
-                Dear HR:
+                To whom it may concern,
+                <br />
+                <br />
+                I have 3 years of experience with JavaScript and React as a web developer, and I've successfully contributed to various projects during my tenure at Infosys Limited LTD. With my proven track record in web development, I am confident in my ability to make a valuable contribution to your team. I'm excited about the opportunity to grow as a software developer, particularly in JavaScript, and I'm drawn to the dynamic nature of this role.
+       
+                In addition to my technical expertise, I also bring 5 years of managerial experience in an office-setting, where I thrived in a fast-paced environment with demanding deadlines. My creative, tech-savvy, and detail-oriented approach allows me to quickly comprehend and develop new skills. For a more detailed overview of what I can offer and my accomplishments, please refer to my resume.
 
-                I am interested in the Software Engineer position. I recently completed rigorous courses from the Flatiron School’s Software Engineering Bootcamp and received my certification.
+                <br />
+                <br />
+                The prospect of collaborating with professionals who share my passion for Infosys Limit LTD is truly inspiring. During my career, I have demonstrated my adaptability, problem-solving abilities, and commitment to achieving results. These qualities align well with the demands of FrontEnd assignments, where rapid response, flexibility, and expertise are essential.
+
+                <br />
+                <br />
+                In my previous roles at Infosys Limited, I refined my skills through involvement in JavaScript - React projects and Java - Spring Boot projects enabling me to excel in dynamic and rapidly evolving work settings. I have a proven track record of successful UBS projects that underscore my capacity to deliver high-quality outcomes within tight timelines. Through my experience, I've gained a deep appreciation for the significance of effective communication and collaboration, both of which are pivotal in the successful execution of web application assignments.
+
+                <br />
+                <br />
+                My goal at this juncture is to launch my career in the tech industry by joining an exceptional company where I can foster my growth and enhance my skills as a software engineer. I eagerly anticipate the opportunity to delve into how I can contribute to your organization's success. You can reach me at your earliest convenience by phone at 607-206-6529 or via email at schoi0115@gmail.com. I am excited about the prospect of joining your team as a Software Engineer and am ready to start making immediate contributions.
+
                 <br />
                 <br />
 
-                I mainly focused on two languages: React in JavaScript, Rails on Ruby (back-end) and SQL during the bootcamp and I am currently learning Python and Java to broaden my skills set. Throughout the program, my communication and coding skills strengthened as I’ve collaborated with avid individuals in group-based projects.
-                <br />
-                <br />
-                I have 4 years of managerial experiences in the office-setting which involved working in a fast-paced environment with demanding deadlines. As someone who is creative, tech-savvy and meticulous to detail, I can comprehend and develop new skills readily. Greater details of what I can offer and of my accomplishments can be found on my resume.
-                My goal right now is to launch my career in tech and be a part of an exceptional company,
-                where I can be grow and further my skills as a software engineer. I look forward to an opportunity to discuss my potential contribution to your company. I can be reached by phone and email.
-                <br />
-                <br />
+
                 Sincerely,
                 <br />
 

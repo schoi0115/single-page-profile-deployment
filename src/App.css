@@ -8,8 +8,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
 
+/* Styles for screens with a width of at least 360px (typical for small Android phones) */
+@media screen and (min-width: 360px) {
+  .your-element {
+    min-width: 200px; /* Minimum width for the element on Android phones */
+    max-width: 400px; /* Maximum width for the element on Android phones */
+    font-size: 16px; /* Same font size for Android phones */
+  }
+}
+
+/* Styles for screens with a width of at least 768px (typical for larger Android devices or tablets) */
+@media screen and (min-width: 768px) {
+  .your-element {
+    min-width: 300px; /* Minimum width for the element on larger Android devices */
+    max-width: 600px; /* Maximum width for the element on larger Android devices */
+    font-size: 16px; /* Same font size for Android phones */
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .lheader {
   margin-left: 2.5%;
+}
+
+.link {
+  position: fixed;
+  margin-left: 0%;
+
+  width: 12%;
+
+
+}
+
+.link-menu {
+  list-style: none;
 }
 
 .home .shawnbio {
@@ -32,7 +70,7 @@
   font-family: Comfortaa;
   margin-top: 5%;
   margin-left: 20%
-  /* Move to the top */
+    /* Move to the top */
 }
 
 .home h2 {
@@ -47,7 +85,6 @@
 
 .typearea,
 .typearea_application {
-
   margin-top: 5%;
   margin-left: 20%;
 }
@@ -61,11 +98,6 @@
   line-height: 1.4em;
   columns: 2;
 }
-
-.typearea h1 {
-  font-size: 3vw;
-}
-
 .home Img {
 
   height: auto;
@@ -184,8 +216,10 @@ span {
   column-count: 2;
   display: flex;
 }
+
 body {
-  background-color: #f0f0f0; /* Background color */
+  background-color: #f0f0f0;
+  /* Background color */
 }
 
 .bgcolor {
@@ -198,6 +232,8 @@ body {
   max-width: 100%;
   transition: background-color 0.5s ease; */
   position: absolute;
-  background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%); /* Create stripes using a linear gradient */
-  background-size: 10px 10px; /* Adjust the size of the stripes */
+  background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%);
+  /* Create stripes using a linear gradient */
+  background-size: 10px 10px;
+  /* Adjust the size of the stripes */
 }

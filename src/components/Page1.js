@@ -5,7 +5,7 @@ function Page1() {
 
 
   return (
-    <div className="typearea">
+    <div className="typearea" id="page1">
       <h1>Proactive</h1>
       <h1>Creative</h1>
       <h1>Team Player</h1>

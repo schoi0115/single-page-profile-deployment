@@ -5,7 +5,7 @@ function Home() {
 
     return (
 
-        <div className="home">
+        <div className="home" id="home">
             <h1>Shawn Choi</h1>
             <h2>Software Engineer</h2>
             {/* <img className="Img" src={Propic} /> */}
