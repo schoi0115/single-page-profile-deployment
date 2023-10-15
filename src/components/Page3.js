@@ -7,7 +7,7 @@ function Page3() {
 
 
     return (
-        <div className="typearea_application" id="page3">
+        <div className="typeares typearea_application" id="page3">
             <h1>Applications</h1>
             <p>
                 <br />

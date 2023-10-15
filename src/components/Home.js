@@ -5,13 +5,8 @@ import pdf from '../files/Seungil Choi - Resume.pdf';
 function Home() {
 
     return (
-        <div>
-
-
+        <div className="textarea_home">
             <a href={pdf} download className="resume">Click to download my Resume</a>
-
-
-
             <div class="wrapper">
                 <div class="focus">
                     Shawn Choi

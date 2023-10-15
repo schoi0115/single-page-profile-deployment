@@ -133,13 +133,26 @@ body {
   margin-left: 38%;
 
 }
-
-.typearea,
-.typearea_application {
+.textarea_home{
+  height: 120vh;
+}
+.typearea {
   margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
-
+  height: 100vh;
+}
+.typearea-experience{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
+}
+.typearea_application{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
 }
 
 .typearea_application p {
@@ -152,6 +165,53 @@ body {
   columns: 2;
   margin-right: 20%;
 }
+.typearea h1::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.typearea h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.typearea h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(0, 0%, 77%);
+  z-index: -1;
+  transition: transform .6s ease;
+  border-radius: 10px;
+}
+
+.typearea h1 {
+  position: relative;
+  font-size: 2rem;
+}
+
+
+.typearea body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui, sans-serif;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+
+
+
+
 
 .skills {
   text-align: center;
