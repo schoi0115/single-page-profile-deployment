@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/single-page-profile-deployment/static/css/main.1f1406b4.css",
+    "main.css": "/single-page-profile-deployment/static/css/main.b01df863.css",
     "main.js": "/single-page-profile-deployment/static/js/main.ace3d1a9.js",
     "static/js/787.ac51b21b.chunk.js": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js",
     "static/media/Seungil Choi - Resume.pdf": "/single-page-profile-deployment/static/media/Seungil Choi - Resume.24f7b742b9e18cb90c2f.pdf",
     "index.html": "/single-page-profile-deployment/index.html",
-    "main.1f1406b4.css.map": "/single-page-profile-deployment/static/css/main.1f1406b4.css.map",
+    "main.b01df863.css.map": "/single-page-profile-deployment/static/css/main.b01df863.css.map",
     "main.ace3d1a9.js.map": "/single-page-profile-deployment/static/js/main.ace3d1a9.js.map",
     "787.ac51b21b.chunk.js.map": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f1406b4.css",
+    "static/css/main.b01df863.css",
     "static/js/main.ace3d1a9.js"
   ]
 }
