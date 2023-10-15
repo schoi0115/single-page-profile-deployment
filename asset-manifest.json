@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/single-page-profile-deployment/static/css/main.7549952d.css",
-    "main.js": "/single-page-profile-deployment/static/js/main.68693b46.js",
+    "main.css": "/single-page-profile-deployment/static/css/main.a1a9269c.css",
+    "main.js": "/single-page-profile-deployment/static/js/main.d973d79f.js",
     "static/js/787.ac51b21b.chunk.js": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js",
+    "static/media/Seungil Choi - Resume.pdf": "/single-page-profile-deployment/static/media/Seungil Choi - Resume.24f7b742b9e18cb90c2f.pdf",
     "index.html": "/single-page-profile-deployment/index.html",
-    "main.7549952d.css.map": "/single-page-profile-deployment/static/css/main.7549952d.css.map",
-    "main.68693b46.js.map": "/single-page-profile-deployment/static/js/main.68693b46.js.map",
+    "main.a1a9269c.css.map": "/single-page-profile-deployment/static/css/main.a1a9269c.css.map",
+    "main.d973d79f.js.map": "/single-page-profile-deployment/static/js/main.d973d79f.js.map",
     "787.ac51b21b.chunk.js.map": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7549952d.css",
-    "static/js/main.68693b46.js"
+    "static/css/main.a1a9269c.css",
+    "static/js/main.d973d79f.js"
   ]
 }
