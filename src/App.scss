@@ -18,16 +18,17 @@ body {
   top: 50%;
   left: -30%;
   transform: translateY(-50%);
-  font-family: Arial;
+ 
   text-transform: uppercase;
   letter-spacing: 2.8px;
   filter: blur(3px);
   font-size: 65px;
   opacity: 0.8;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .mask {
+    font-family: mechanical-font;
   position: absolute;
   left: -30%;
   top: -2px;
@@ -61,12 +62,12 @@ body {
 
 @keyframes mask {
   to {
-    transform: translateX(300px);
+    transform: translateX(500px);
   }
 }
 
 @keyframes text {
   to {
-    transform: translateX(-300px);
+    transform: translateX(-480px);
   }
 }

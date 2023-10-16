@@ -1,10 +1,13 @@
 * {
   /* font-family: Comfortaa; */
-  font-family: Comfortaa;
   /* font-family: 'Patrick Hand', cursive; */
   /* font-family: 'Indie Flower', cursive; */
 }
-
+@font-face {
+  font-family: 'mechanical-font';
+  src: url('./files/MechanicalDemoRegular-RpRGv.ttf');
+}
+@import url("https://www.fontspace.com/mechanical-font-f95917");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
@@ -37,15 +40,15 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
-    color:black
+    color: black
   }
 }
 
 html {
   scroll-behavior: smooth;
-  cursor: alias;
   font-weight: bold;
 }
 
@@ -55,19 +58,11 @@ span {
   font-family: 'Indie Flower', cursive;
 }
 
-body {
-  height: 100vh;
-  background-color: #ffffff;
-  /* background: linear-gradient(to right,
-      white 0%,
-      rgb(175, 175, 175) 50%,
-      rgb(103, 103, 103) 50%,
-      rgb(255, 255, 255) 100%); */
-}
 
-.nav-width{
+.nav-width {
   width: 105px;
 }
+
 .resume {
   position: fixed;
   left: 0;
@@ -83,23 +78,26 @@ body {
   margin-left: 2.5%;
 }
 
-.link {
-  position: fixed;
-  margin-left: 0%;
-  width: 12%;
-}
-
-.link-menu {
-  list-style: none;
-}
-
 .home .shawnbio {
   max-width: 60%;
   /* color: white; */
 }
 
-.home {
-  margin-top: 10%;
+.wrapper{
+  font-family: mechanical-font;
+}
+.focus{
+  font-family: mechanical-font;
+}
+.mask{
+  font-family: mechanical-font;
+}
+.text{
+  font-family: mechanical-font;
+}
+.main_content {
+  margin-top: 5%;
+
   justify-content: center;
   align-items: center;
   margin-left: 15%;
@@ -110,17 +108,14 @@ body {
   font-weight: bold;
 }
 
-.name {
+.focus {
   font-size: 4vw;
   /* Adjust this value as needed */
   font-weight: bold;
   /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
-  font-family: Comfortaa;
   margin-top: 5%;
   text-align: center;
   /* Move to the top */
-
-
 }
 
 .title {
@@ -128,68 +123,80 @@ body {
   /* Adjust this value as needed */
   font-weight: bold;
   /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
-  font-family: Comfortaa;
-  margin-top: 10%;
-  margin-left: 38%;
+  font-family: mechanical-font;
+  align-items: center;
+  text-align: center;
+  margin: 15%;
 
 }
-.textarea_home{
-  height: 120vh;
+
+.iam {
+  font-size: 8em;
+  color: black;
+  font-family:"mechanical-font";
+  font-weight: lighter;
 }
-.typearea {
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
+
+.bio {}
+
+.textarea_home {
+  height: 200vh;
+}
+
+.typeare_personality {
   height: 100vh;
 }
-.typearea-experience{
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 100%;
-}
-.typearea_application{
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 100%;
-}
 
-.typearea_application p {
-  display: block;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: hidden;
-  /* max-height: 80em; */
-  line-height: 1.4em;
-  columns: 2;
-  margin-right: 20%;
-}
-.typearea h1::before {  
+.typeare_personality h1::before {
   transform: scaleX(0);
   transform-origin: bottom right;
 }
 
-.typearea h1:hover::before {
+.typeare_personality h1:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
+  background: hsl(0, 100%, 90%);
 }
-.typearea h1::before {
+
+.typeare_personality h1::before {
   content: " ";
   display: block;
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   inset: 0 0 0 0;
-  background: hsl(0, 0%, 77%);
   z-index: -1;
   transition: transform .6s ease;
   border-radius: 10px;
 }
 
-.typearea h1 {
+.typeare_personality h1 {
   position: relative;
   font-size: 2rem;
 }
+
+.typearea {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.typearea-experience {
+  height: 100%;
+
+}
+
+.typearea_application {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
+
+}
+
+
 
 
 .typearea body {
@@ -208,67 +215,22 @@ body {
   }
 }
 
-
-
-
-
-
 .skills {
   text-align: center;
 }
 
-.skill-language {
-  columns: 3;
+.skill_wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-
-.home Img {
-
-  height: auto;
-  max-width: 40%;
-  max-height: 40%;
-  border-radius: 20%;
-  margin-top: -10px;
-  /* Move to the top */
-  margin-right: 20%;
-}
 
 .appgithub {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .resumePreview {
   cursor: grab;
-}
-
-.experience {
-  font-family: Comfortaa;
-  height: auto;
-  display: inline-block;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: auto;
-  width: 80%;
-  max-height: 40em;
-  max-width: 60em;
-  line-height: 1.7em;
-}
-
-.navber {
-  background-color: lightblue;
-  height: 10%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-
-.nav-color {
-  position: fixed;
-  background-color: rgb(218, 127, 127);
-  width: 100%;
-  height: 15%;
-  text-decoration: none;
-  margin-top: 0;
 }
 
 .tech-table {
@@ -276,18 +238,9 @@ body {
   display: flex;
 }
 
-.bgcolor {
-  /* position: absolute;
-  background: linear-gradient(-45deg, #df6d6d 25%, #ffc4c4 25%),
-  linear-gradient(75deg, #df6d6d 25%, #ffc4c4 25%),
-  linear-gradient(80deg, #df6d6d 25%, #ffc4c4 25%),
-  linear-gradient(150deg, #df6d6d 25%, white 25%);
-  height: 800%;
-  max-width: 100%;
-  transition: background-color 0.5s ease; */
-  position: absolute;
-  /* background-image: linear-gradient(90deg, #e4e8ff 25%, transparent 50%); */
-  /* Create stripes using a linear gradient */
-  background-size: 10px 10px;
-  /* Adjust the size of the stripes */
+.link {
+  position: fixed;
+  margin-left: 0%;
+  width: 12%;
+  list-style: none;
 }
