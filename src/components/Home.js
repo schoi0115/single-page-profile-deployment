@@ -9,7 +9,7 @@ function Home() {
             <a href={pdf} download className="resume">Click to download my Resume</a>
             <br />
             <br />
-    
+
             <div className="main_content" id="home">
                 <div class="wrapper">
                     <div class="focus">
@@ -26,21 +26,68 @@ function Home() {
                 {/* <img className="Img" src={Propic} /> */}
 
                 <div className="bio">
-                    <h1 className="iam">
-                        I AM
-                    </h1>
-                    <p>
-                        With 3 years of experience in software development and 5 years of effective managerial leadership, I have a proven track record of engaging with diverse customers and training team members collaboratively.
-                        <br />
-                        <br />
-                        I am bilingual in Korean and English, holding a Bachelor of Fine Arts. My professional background includes proficiency in Ruby on Rails and JavaScript programming, complemented by a solid foundation in Arts and Design. 
-                        <br />
-                        <br />
-                        I am adept at using various tools, including Quickbooks, Adobe Photoshop, and Microsoft/Google platforms, and I am well-versed in communication tools like Zoom. Currently, I am actively seeking full-time Full-Stack Developer positions.
-                        <br />
-                        <br />
-                        I am a quick learner and enjoy a face-paced environment.
-                    </p>
+
+
+                    <div >
+                        <div className="iam">
+                            I AM
+                        </div>
+                        <div className="spring_body">
+                            <div class="clock">
+                                <div class="wheel">
+                                    <div class="leaf"></div>
+                                    <div class="leaf"></div>
+                                    <div class="leaf"></div>
+                                    <div class="leaf"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="spring_body">
+                            <div class="clock">
+                                <div class="wheel2">
+                                    <div class="leaf2"></div>
+                                    <div class="leaf2"></div>
+                                    <div class="leaf2"></div>
+                                    <div class="leaf2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="spring_body">
+                            <div class="clock">
+                                <div class="wheel3">
+                                    <div class="leaf3"></div>
+                                    <div class="leaf3"></div>
+                                    <div class="leaf3"></div>
+                                    <div class="leaf3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="spring_body">
+                            <div class="clock">
+                                <div class="wheel4">
+                                    <div class="leaf4"></div>
+                                    <div class="leaf4"></div>
+                                    <div class="leaf4"></div>
+                                    <div class="leaf4"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            With 3 years of experience in software development and 5 years of effective managerial leadership, I have a proven track record of engaging with diverse customers and training team members collaboratively.
+                            <br />
+                            <br />
+                            I am bilingual in Korean and English, holding a Bachelor of Fine Arts. My professional background includes proficiency in Ruby on Rails and JavaScript programming, complemented by a solid foundation in Arts and Design.
+                            <br />
+                            <br />
+                            I am adept at using various tools, including Quickbooks, Adobe Photoshop, and Microsoft/Google platforms, and I am well-versed in communication tools like Zoom. Currently, I am actively seeking full-time Full-Stack Developer positions.
+                            <br />
+                            <br />
+                            I am a quick learner and enjoy a face-paced environment.
+                        </div>
+
+                    </div>
+
+
                 </div>
                 <div>
                     <br />
