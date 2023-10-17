@@ -6,16 +6,9 @@ import Page3 from '../src/components/Page3'
 import Page4 from '../src/components/Page4'
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import React, { useResolvedPath, useMatch } from 'react';
+import React from 'react';
 
 function App() {
-
-  const CustomLink = ({ children, to, ...props }) => {
-    let resolved = useResolvedPath(to);
-    let match = useMatch({ path: resolved.pathname, end: true });
-    const linkClassNames = match ? 'active' : '';
-  }
-  
   return (
     <BrowserRouter>
       <div className="link">
