@@ -9,6 +9,26 @@
   src: url('./files/MechanicalDemoRegular-RpRGv.ttf');
 }
 
+@font-face {
+  font-family: 'barbs_font1';
+  src: url('./files/Slimbots-7ZJD.ttf');
+}
+
+@font-face {
+  font-family: 'barbs_font2';
+  src: url('./files/Slimbots-Kq0e.ttf');
+}
+
+@font-face {
+  font-family: 'barbs_font3';
+  src: url('./files/SlimbotsItalic-2V1X.ttf');
+}
+
+@font-face {
+  font-family: 'barbs_font4';
+  src: url('./files/SlimbotsItalic-wM09.ttf');
+}
+
 @import url("https://www.fontspace.com/mechanical-font-f95917");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
@@ -113,25 +133,27 @@ span {
   /* Adjust this value as needed */
   font-weight: bold;
   /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
-
+  font-family: "barbs_font1";
+  letter-spacing: 10px;
   align-items: center;
   text-align: center;
-  margin: 15%;
-
+  margin-left: 2%;
+  margin-top: 32%
 }
 
-.iam {
+/* .iam {
   font-size: 8em;
   color: black;
-  font-family: "mechanical-font";
+  font-family: "barbs_font1";
   font-weight: lighter;
-  margin-left: 20%;
+  margin-left: 25%;
   position: absolute;
-}
+  letter-spacing: 20px;
+} */
 
 .spring_body {
-  margin-left: 65%;
-  margin-top: -3%;
+  margin-left: 45%;
+  margin-top: 13%;
   margin-bottom: 5%;
 }
 
@@ -145,7 +167,7 @@ span {
 .wheel {
   width: 100%;
   height: 100%;
-  border: 5px solid black;
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   animation: rotate 10s linear infinite;
@@ -154,7 +176,7 @@ span {
 .wheel2 {
   width: 100%;
   height: 100%;
-  border: 5px solid rgb(64, 64, 64);
+  border: 0px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   animation: rotate 12s linear infinite;
@@ -163,7 +185,7 @@ span {
 .wheel3 {
   width: 100%;
   height: 100%;
-  border: 5px solid rgb(128, 128, 128);
+  border: 0px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   animation: rotate 14s linear infinite;
@@ -172,15 +194,16 @@ span {
 .wheel4 {
   width: 100%;
   height: 100%;
-  border: 5px solid rgb(151, 151, 151);
+  border: 0px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   animation: rotate 16s linear infinite;
 }
+
 .wheel5 {
   width: 100%;
   height: 100%;
-  border: 5px solid rgb(151, 151, 151);
+  border: 0px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   animation: rotate 18s linear infinite;
@@ -307,7 +330,7 @@ span {
 .clock5 {
   width: 200px;
   height: 200px;
-  margin-top: -1%;
+  margin-top: 0%;
   position: absolute;
 }
 
@@ -345,7 +368,7 @@ span {
   }
 }
 
-.typeare_personality{
+.typeare_personality {
   margin-top: 5%;
   align-items: center;
   margin-left: 10%;
@@ -442,10 +465,11 @@ span {
   opacity: 1;
 }
 
-.typearea{
+.typearea {
   margin-top: 10%;
   height: 100vh;
 }
+
 .typearea h1::before {
   transform: scaleX(0);
   transform-origin: bottom right;
@@ -533,7 +557,9 @@ span {
   position: fixed;
   margin-left: 0%;
   margin-top: 20%;
-
+  font-family: barbs_font1;
+  letter-spacing: 5px;
+  line-height: 180%;
   color: black;
   width: 12%;
   list-style: none;

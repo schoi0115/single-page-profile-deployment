@@ -13,20 +13,17 @@ class Home extends Component {
                 <div className="main_content" id="home">
                     <div class="wrapper">
                         <div class="focus">
-                            Shawn Choi
+                            SeungIl Choi
                         </div>
                         <div class="mask">
-                            <div class="text">Shawn Choi</div>
+                            <div class="text">   Seungil Choi</div>
                         </div>
                     </div>
                     <br />
-
-
-                    <h2 className="title">Software Engineer</h2>
                     {/* <img className="Img" src={Propic} /> */}
-                    <div className="iam">
+                    {/* <div className="iam">
                         I AM
-                    </div>
+                    </div> */}
                     <div className="spring_body">
                         <div class="clock">
                             <div class="wheel">
@@ -78,6 +75,12 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+
+                <div>
+                    <h2 className="title">Software Engineer</h2>
+                </div>
+
+
 
 
 
