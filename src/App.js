@@ -10,7 +10,7 @@ import React from 'react';
 import Page1Design from './components/Page1Design';
 import pdf from './files/Seungil Choi - Resume.pdf';
 function App() {
-  
+
   return (
     <BrowserRouter>
       <div className="link">
@@ -27,7 +27,7 @@ function App() {
           </li>
           <li>
             <Link to='#page2' style={{ textDecoration: 'none', color: "black" }}>
-              Experience
+              Skills
             </Link>
           </li>
           <li>
@@ -53,9 +53,9 @@ function App() {
         {/* <Page1 /> */}
 
 
-        {/* <Page2 />
+        <Page2 />
 
-        <Page3 />
+        {/*   <Page3 />
         <Page4 /> */}
         <a href={pdf} download className="resume">Click to download my Resume</a>
       </div>

@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
             <div className="textarea_home">
-            
+
                 <br />
                 <br />
 
@@ -16,7 +16,7 @@ class Home extends Component {
                             SeungIl Choi
                         </div>
                         <div class="mask">
-                            <div class="text">   Seungil Choi</div>
+                            <div class="text"> Seungil Choi</div>
                         </div>
                     </div>
                     <br />

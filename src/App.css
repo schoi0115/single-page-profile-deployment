@@ -36,7 +36,7 @@
 
 /* Styles for screens with a width of at least 360px (typical for small Android phones) */
 @media screen and (min-width: 360px) {
-  .your-element {
+  .page1text {
     min-width: 200px;
     /* Minimum width for the element on Android phones */
     max-width: 400px;
@@ -48,7 +48,8 @@
 
 /* Styles for screens with a width of at least 768px (typical for larger Android devices or tablets) */
 @media screen and (min-width: 768px) {
-  .your-element {
+  .page1text {
+    text-size-adjust: auto;
     min-width: 300px;
     /* Minimum width for the element on larger Android devices */
     max-width: 600px;
@@ -370,45 +371,152 @@ span {
 
 .pageheight {
   margin-top: 20%;
-  height: 150vh;
+  height: 100vh;
+}
+
+.pageControl {
+  height: 20vh;
 }
 
 .page1text {
   position: absolute;
+  font-size: 0.8vw;
   width: 20%;
   margin-left: 52%;
-  margin-top: 1%;
+  margin-top: 0%;
+}
+
+.page1text h4::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.page1text h4:hover::before {
+  transform: scaleX(1.1);
+  transform-origin: bottom right;
+  background: hsl(0, 0%, 85%);
+}
+
+.page1text h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transition: transform .6s ease;
+  border-radius: 10px;
 }
 
 .page2text {
   position: absolute;
+  font-size: 0.8vw;
   width: 20%;
   margin-left: 28%;
-  margin-top: 9%;
+  margin-top: 7.5%;
   text-align: right;
+}
+
+.page2text h4::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.page2text h4:hover::before {
+  transform: scaleX(1.1);
+  transform-origin: bottom left;
+  background: hsl(0, 0%, 85%);
+}
+
+.page2text h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transition: transform .6s ease;
+  border-radius: 10px;
 }
 
 .page3text {
   position: absolute;
+  font-size: 0.8vw;
   width: 20%;
   margin-left: 52%;
-  margin-top: 17%;
+  margin-top: 15.4%;
   text-align: left;
+}
+
+.page3text h4::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.page3text h4:hover::before {
+  transform: scaleX(1.1);
+  transform-origin: bottom right;
+  background: hsl(0, 0%, 85%);
+}
+
+.page3text h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transition: transform .6s ease;
+  border-radius: 10px;
 }
 
 .page4text {
   position: absolute;
+  font-size: 0.8vw;
   width: 20%;
-
   text-align: center;
   width: 100%;
-  margin-top: 30%;
+  margin-top: 26%;
+}
+
+.page4text h4::before {
+  transform: scaleX(0);
+  transform-origin: top;
+}
+
+.page4text h4:hover::before {
+  transform: scaleX(0.6);
+  transform-origin: bottom;
+  background: hsl(0, 0%, 85%);
+}
+
+.page4text h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transition: transform .6s ease;
+  border-radius: 10px;
 }
 
 .lines1 {
   margin-left: 50%;
   position: absolute;
-  height: 53%;
+  height: 25vw;
   background: rgb(13, 67, 21);
   padding: 0.25rem;
 
@@ -416,11 +524,10 @@ span {
 
 .lines2 {
   position: absolute;
-  margin-left: 40%;
-
+  margin-left: 40vw;
   background: rgb(63, 81, 182);
   padding: 0.25rem;
-  width: 40%;
+  width: 40vw;
 
 }
 
@@ -435,11 +542,12 @@ span {
 
 .lines4 {
   position: absolute;
-  margin-left: 27%;
-  margin-top: 16%;
   background: rgb(125, 125, 125);
+  margin-left: 27%;
+  margin-top: 15%;
   padding: 0.25rem;
   width: 40%;
+
 }
 
 .lines5 {
@@ -447,8 +555,8 @@ span {
   margin-left: 24%;
   margin-top: -6%;
   width: 40%;
-  height: 150px;
-  width: 150px;
+  height: 8vw;
+  width: 8vw;
   background-color: white;
   border: solid 0.50rem rgb(255, 89, 89);
 
@@ -459,43 +567,25 @@ span {
   margin-left: 30%;
   margin-top: -3%;
   width: 40%;
-  height: 150px;
-  width: 150px;
+  height: 8vw;
+  width: 8vw;
   background-color: white;
   border: solid 0.50rem pink;
 
 }
 
+.page2layout {
 
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
 
 .typeare_personality {
   margin-top: 5%;
   align-items: center;
   margin-left: 10%;
   margin-right: 9%;
-}
-
-.bio {
-  margin-top: 40%;
-}
-
-.p_1 {
-  color: rgb(0, 0, 0);
-}
-
-.p_2 {
-  color: rgb(79, 79, 79);
-  margin-top: 2%;
-}
-
-.p_3 {
-  color: rgb(125, 125, 125);
-  margin-top: 2%;
-}
-
-.p_4 {
-  color: rgb(166, 166, 166);
-  margin-top: 2%;
 }
 
 .container1 {

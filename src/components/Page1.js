@@ -6,30 +6,8 @@ class Page1 extends Component {
   render() {
     return (
 
-      <div className="typeare_personality" id="page1">
+      <div className="typeare_personality">
         <div className="bio">
-          <div>
-
-            <div className="p_1">
-              With 3 years of experience in software development and 5 years of effective managerial leadership, I have a proven track record of engaging with diverse customers and training team members collaboratively.
-            </div>
-            <div className="p_2">
-              I am bilingual in Korean and English, holding a Bachelor of Fine Arts. My professional background includes proficiency in Ruby on Rails and JavaScript programming, complemented by a solid foundation in Arts and Design.
-            </div>
-            <div className="p_3">
-              I am adept at using various tools, including Quickbooks, Adobe Photoshop, and Microsoft/Google platforms, and I am well-versed in communication tools like Zoom. Currently, I am actively seeking full-time Full-Stack Developer positions.
-            </div>
-            <div className="p_4">
-              I am a quick learner and enjoy a face-paced environment.
-            </div>
-
-          </div>
-
-          
-
-
-        </div>
-        <div>
           <br />
 
           <h2 className="skills">
