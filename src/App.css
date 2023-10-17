@@ -159,8 +159,8 @@ span {
 }
 
 .clock {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   margin-top: 4%;
   position: absolute;
 }
@@ -212,8 +212,8 @@ span {
 
 
 .leaf {
-  width: 20px;
-  height: 100px;
+  width: 1vw;
+  height: 5vw;
   background-color: black;
   position: absolute;
   transform-origin: bottom;
@@ -236,15 +236,15 @@ span {
 }
 
 .clock2 {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   margin-top: 3%;
   position: absolute;
 }
 
 .leaf2 {
-  width: 20px;
-  height: 100px;
+  width: 1vw;
+  height: 5vw;
   background-color: rgb(46, 46, 46);
   position: absolute;
   transform-origin: bottom;
@@ -267,15 +267,15 @@ span {
 }
 
 .clock3 {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   margin-top: 2%;
   position: absolute;
 }
 
 .leaf3 {
-  width: 20px;
-  height: 100px;
+  width: 1vw;
+  height: 5vw;
   background-color: rgb(93, 93, 93);
   position: absolute;
   transform-origin: bottom;
@@ -298,15 +298,15 @@ span {
 }
 
 .clock4 {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   margin-top: 1%;
   position: absolute;
 }
 
 .leaf4 {
-  width: 20px;
-  height: 100px;
+  width: 1vw;
+  height: 5vw;
   background-color: rgb(144, 144, 144);
   position: absolute;
   transform-origin: bottom;
@@ -329,21 +329,21 @@ span {
 }
 
 .clock5 {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   margin-top: 0%;
   position: absolute;
 }
 
 .leaf5 {
-  width: 20px;
-  height: 100px;
+  width: 1vw;
+  height: 5vw;
   background-color: rgb(211, 211, 211);
   position: absolute;
   transform-origin: bottom;
   top: 0;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -1vw;
   border-radius: 50px 50px 0 0;
 }
 
@@ -578,6 +578,7 @@ span {
 
   margin-left: 20%;
   margin-right: 20%;
+  height: 100vh;
 
 }
 
@@ -745,6 +746,7 @@ span {
 
 .link {
   position: fixed;
+  font-size: 1vw;
   margin-left: 0%;
   margin-top: 20%;
   font-family: barbs_font1;

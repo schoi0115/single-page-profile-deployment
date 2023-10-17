@@ -5,7 +5,7 @@ function Page2() {
 
 
     return (
-        <div className="page2layout">
+        <div className="page2layout" id="page2">
             <div>
                 <br />
                 <h2>
@@ -68,7 +68,11 @@ function Page2() {
                     <li>Ubuntu</li>
                 </ul>
 
-                <ul>
+
+
+
+                {/* Education section */}
+                {/* <ul>
 
                     <h4>Flatiron School</h4>
 
@@ -78,18 +82,18 @@ function Page2() {
 
                     <li>Bachelor of Fine Arts 2015</li>
 
-                </ul>
+                </ul> */}
 
             </div>
 
-            <div className="typearea">
-                <h1>Proactive</h1>
-                <h1>Creative</h1>
-                <h1>Team Player</h1>
-                <h1>Sculptor</h1>
-                <h1>Planner</h1>
-            </div>
         </div>
+// <div className="typearea">
+//<h1>Proactive</h1>
+//<h1>Creative</h1>
+//<h1>Team Player</h1>
+//<h1>Sculptor</h1>
+//<h1>Planner</h1>
+//</div>
         // <div className="main_content">
         //     <div className="typearea-experience" id="page2">
 

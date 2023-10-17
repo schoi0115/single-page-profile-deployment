@@ -5,8 +5,8 @@ $target: black;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 235px;
-  height: 70px;
+  width: 12.5vw;
+  height: 2.5vw;
   white-space: nowrap;
 }
 
@@ -19,7 +19,7 @@ $target: black;
   text-transform: uppercase;
   letter-spacing: 2.8px;
   filter: blur(3px);
-  font-size: 100px;
+  font-size: 5vw;
   opacity: 0.8;
   color: rgb(0, 0, 0);
 }
@@ -33,7 +33,7 @@ $target: black;
 
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-size: 100px;
+  font-size: 5vw;
   clip: rect(0px, 250px, 255px, 0px);
   background: linear-gradient($target, $target 0) no-repeat,
     linear-gradient(to right, $target, $target 0) no-repeat,
