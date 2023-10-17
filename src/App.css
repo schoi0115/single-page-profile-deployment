@@ -3,10 +3,12 @@
   /* font-family: 'Patrick Hand', cursive; */
   /* font-family: 'Indie Flower', cursive; */
 }
+
 @font-face {
   font-family: 'mechanical-font';
   src: url('./files/MechanicalDemoRegular-RpRGv.ttf');
 }
+
 @import url("https://www.fontspace.com/mechanical-font-f95917");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
@@ -83,24 +85,12 @@ span {
   /* color: white; */
 }
 
-.wrapper{
-  font-family: mechanical-font;
-}
-.focus{
-  font-family: mechanical-font;
-}
-.mask{
-  font-family: mechanical-font;
-}
-.text{
-  font-family: mechanical-font;
-}
+
 .main_content {
   margin-top: 5%;
-
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: 9%;
 }
 
@@ -123,7 +113,7 @@ span {
   /* Adjust this value as needed */
   font-weight: bold;
   /* text-shadow: 0.8vw 0.8vw 0.8vw #3f3f3f; */
-  font-family: mechanical-font;
+
   align-items: center;
   text-align: center;
   margin: 15%;
@@ -133,19 +123,23 @@ span {
 .iam {
   font-size: 8em;
   color: black;
-  font-family:"mechanical-font";
+  font-family: "mechanical-font";
   font-weight: lighter;
+  margin-left: 20%;
+  position: absolute;
 }
-.spring_body{
+
+.spring_body {
   margin-left: 65%;
-  margin-top: -28%;
+  margin-top: -3%;
   margin-bottom: 5%;
 }
 
 .clock {
   width: 200px;
   height: 200px;
-  position: relative;
+  margin-top: 4%;
+  position: absolute;
 }
 
 .wheel {
@@ -156,6 +150,7 @@ span {
   position: relative;
   animation: rotate 10s linear infinite;
 }
+
 .wheel2 {
   width: 100%;
   height: 100%;
@@ -164,6 +159,7 @@ span {
   position: relative;
   animation: rotate 12s linear infinite;
 }
+
 .wheel3 {
   width: 100%;
   height: 100%;
@@ -172,6 +168,7 @@ span {
   position: relative;
   animation: rotate 14s linear infinite;
 }
+
 .wheel4 {
   width: 100%;
   height: 100%;
@@ -179,6 +176,14 @@ span {
   border-radius: 50%;
   position: relative;
   animation: rotate 16s linear infinite;
+}
+.wheel5 {
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgb(151, 151, 151);
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 18s linear infinite;
 }
 
 
@@ -193,6 +198,7 @@ span {
   margin-left: -10px;
   border-radius: 50px 50px 0 0;
 }
+
 .leaf:nth-child(2) {
   transform: rotate(90deg);
 }
@@ -204,6 +210,14 @@ span {
 .leaf:nth-child(4) {
   transform: rotate(270deg);
 }
+
+.clock2 {
+  width: 200px;
+  height: 200px;
+  margin-top: 3%;
+  position: absolute;
+}
+
 .leaf2 {
   width: 20px;
   height: 100px;
@@ -215,6 +229,7 @@ span {
   margin-left: -10px;
   border-radius: 50px 50px 0 0;
 }
+
 .leaf2:nth-child(2) {
   transform: rotate(90deg);
 }
@@ -225,6 +240,13 @@ span {
 
 .leaf2:nth-child(4) {
   transform: rotate(270deg);
+}
+
+.clock3 {
+  width: 200px;
+  height: 200px;
+  margin-top: 2%;
+  position: absolute;
 }
 
 .leaf3 {
@@ -238,6 +260,7 @@ span {
   margin-left: -10px;
   border-radius: 50px 50px 0 0;
 }
+
 .leaf3:nth-child(2) {
   transform: rotate(90deg);
 }
@@ -248,6 +271,13 @@ span {
 
 .leaf3:nth-child(4) {
   transform: rotate(270deg);
+}
+
+.clock4 {
+  width: 200px;
+  height: 200px;
+  margin-top: 1%;
+  position: absolute;
 }
 
 .leaf4 {
@@ -261,6 +291,7 @@ span {
   margin-left: -10px;
   border-radius: 50px 50px 0 0;
 }
+
 .leaf4:nth-child(2) {
   transform: rotate(90deg);
 }
@@ -273,50 +304,160 @@ span {
   transform: rotate(270deg);
 }
 
+.clock5 {
+  width: 200px;
+  height: 200px;
+  margin-top: -1%;
+  position: absolute;
+}
 
+.leaf5 {
+  width: 20px;
+  height: 100px;
+  background-color: rgb(211, 211, 211);
+  position: absolute;
+  transform-origin: bottom;
+  top: 0;
+  left: 50%;
+  margin-left: -10px;
+  border-radius: 50px 50px 0 0;
+}
 
+.leaf5:nth-child(2) {
+  transform: rotate(90deg);
+}
 
+.leaf5:nth-child(3) {
+  transform: rotate(180deg);
+}
+
+.leaf5:nth-child(4) {
+  transform: rotate(270deg);
+}
 
 @keyframes rotate {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
+.typeare_personality{
+  margin-top: 5%;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 9%;
+}
 
-@keyframes rotate {
-  0% {
-      transform: rotate(0deg);
-  }
-  100% {
-      transform: rotate(360deg);
-  }
+.bio {
+  margin-top: 40%;
+}
+
+.p_1 {
+  color: rgb(0, 0, 0);
+}
+
+.p_2 {
+  color: rgb(79, 79, 79);
+  margin-top: 2%;
+}
+
+.p_3 {
+  color: rgb(125, 125, 125);
+  margin-top: 2%;
+}
+
+.p_4 {
+  color: rgb(166, 166, 166);
+  margin-top: 2%;
+}
+
+.container1 {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 2s ease;
+}
+
+.text1 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.content1 {
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.scrolled1 .text1 {
+  filter: blur(0);
+}
+
+.scrolled1 .content1 {
+  opacity: 1;
 }
 
 
-.textarea_home {
-  height: 200vh;
+.container2 {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 2s ease;
 }
 
-.typeare_personality {
+.text2 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.content2 {
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.scrolled2 .text2 {
+  filter: blur(0);
+}
+
+.scrolled2 .content2 {
+  opacity: 1;
+}
+
+.typearea{
+  margin-top: 10%;
   height: 100vh;
 }
-
-.typeare_personality h1::before {
+.typearea h1::before {
   transform: scaleX(0);
   transform-origin: bottom right;
 }
 
-.typeare_personality h1:hover::before {
+.typearea h1:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
   background: hsl(0, 100%, 90%);
 }
 
-.typeare_personality h1::before {
+.typearea h1::before {
   content: " ";
   display: block;
   position: absolute;
@@ -330,16 +471,11 @@ span {
   border-radius: 10px;
 }
 
-.typeare_personality h1 {
+.typearea h1 {
   position: relative;
   font-size: 2rem;
 }
 
-.typearea {
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
 
 .typearea-experience {
   height: 100%;
@@ -353,9 +489,6 @@ span {
   height: 100%;
 
 }
-
-
-
 
 .typearea body {
   min-block-size: 100%;
@@ -399,6 +532,15 @@ span {
 .link {
   position: fixed;
   margin-left: 0%;
+  margin-top: 20%;
+
+  color: black;
   width: 12%;
   list-style: none;
+  text-decoration: none
+}
+
+.link_menu {
+  list-style: none;
+  text-decoration: none
 }
