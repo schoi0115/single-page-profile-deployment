@@ -7,8 +7,10 @@ import Page4 from '../src/components/Page4'
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import React from 'react';
-
+import Page1Design from './components/Page1Design';
+import pdf from './files/Seungil Choi - Resume.pdf';
 function App() {
+  
   return (
     <BrowserRouter>
       <div className="link">
@@ -44,11 +46,18 @@ function App() {
 
 
         <Home />
-        <Page1 />
-        <Page2 />
-        {/* <Page3 />
-        <Page4 /> */}
+        <Page1Design />
 
+
+
+        {/* <Page1 /> */}
+
+
+        {/* <Page2 />
+
+        <Page3 />
+        <Page4 /> */}
+        <a href={pdf} download className="resume">Click to download my Resume</a>
       </div>
     </BrowserRouter>
 

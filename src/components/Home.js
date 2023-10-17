@@ -1,12 +1,12 @@
 import "../App.css";
 import "../App.scss"
 import React, { Component } from "react";
-import pdf from '../files/Seungil Choi - Resume.pdf';
+
 class Home extends Component {
     render() {
         return (
             <div className="textarea_home">
-                <a href={pdf} download className="resume">Click to download my Resume</a>
+            
                 <br />
                 <br />
 
