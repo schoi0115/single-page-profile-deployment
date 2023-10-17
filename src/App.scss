@@ -12,14 +12,15 @@ $target: black;
 
 .focus {
   position: absolute;
-  top: 50%;
+  font-size: 5vw;
+  top: 2.5vw;
   left: -100%;
   transform: translateY(-50%);
 
   text-transform: uppercase;
   letter-spacing: 2.8px;
   filter: blur(3px);
-  font-size: 5vw;
+
   opacity: 0.8;
   color: rgb(0, 0, 0);
 }
@@ -28,13 +29,13 @@ $target: black;
 
   position: absolute;
   left: -100%;
-  top: -25px;
-  width: 250px;
+
+  width: 19vw;
 
   text-transform: uppercase;
   letter-spacing: 0px;
   font-size: 5vw;
-  clip: rect(0px, 250px, 255px, 0px);
+  clip: rect(0px, 19vw, 15vw, 0px);
   background: linear-gradient($target, $target 0) no-repeat,
     linear-gradient(to right, $target, $target 0) no-repeat,
     linear-gradient(to right, $target, $target 0) bottom left no-repeat,
@@ -44,7 +45,7 @@ $target: black;
     linear-gradient($target, $target 0) top right no-repeat,
     linear-gradient($target, $target 0) top right no-repeat;
   background-size: 10px 2px, 2px 10px, 2px 10px, 10px 2px, 2px 10px, 10px 2px, 10px 2px, 2px 10px, 10px 2px;
-  color: #f0f0f0;
+  color: #f2f2f2;
 
   transform: translateX(0);
   box-sizing: border-box;
@@ -59,12 +60,12 @@ $target: black;
 
 @keyframes mask {
   to {
-    transform: translateX(473px);
+    transform: translateX(24vw);
   }
 }
 
 @keyframes text {
   to {
-    transform: translateX(-445px);
+    transform: translateX(-22vw);
   }
 }

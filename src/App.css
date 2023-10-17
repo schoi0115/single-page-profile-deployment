@@ -41,7 +41,7 @@
     /* Minimum width for the element on Android phones */
     max-width: 400px;
     /* Maximum width for the element on Android phones */
-    font-size: 16px;
+    font-size: 4vw;
     /* Same font size for Android phones */
   }
 }
@@ -54,7 +54,7 @@
     /* Minimum width for the element on larger Android devices */
     max-width: 600px;
     /* Maximum width for the element on larger Android devices */
-    font-size: 16px;
+    font-size: 4vw;
     /* Same font size for Android phones */
   }
 }
@@ -81,9 +81,27 @@ span {
   font-family: 'Indie Flower', cursive;
 }
 
+.link {
+  position: fixed;
+  font-size: 1vw;
+  margin-left: 0%;
+  margin-top: 20%;
+  font-family: barbs_font1;
+  letter-spacing: 5px;
+  line-height: 180%;
+  color: black;
+  width: 12%;
+  list-style: none;
+  text-decoration: none
+}
+
+.link_menu {
+  list-style: none;
+  text-decoration: none
+}
 
 .nav-width {
-  width: 105px;
+  width: 200px;
 }
 
 .resume {
@@ -370,12 +388,11 @@ span {
 }
 
 .pageheight {
-  margin-top: 20%;
-  height: 100vh;
+  height: 45vw;
 }
 
 .pageControl {
-  height: 20vh;
+  height: 20%;
 }
 
 .page1text {
@@ -575,144 +592,32 @@ span {
 }
 
 .page2layout {
-
+  font-size: 1.3vw;
   margin-left: 20%;
   margin-right: 20%;
-  height: 100vh;
-
+  height: 140%;
+}
+.database_layout{
+  columns: 3;
+}
+.tool_layout{
+  columns: 4;
 }
 
-.typeare_personality {
-  margin-top: 5%;
-  align-items: center;
-  margin-left: 10%;
-  margin-right: 9%;
-}
-
-.container1 {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%);
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  transition: all 2s ease;
-}
-
-.text1 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-}
-
-.content1 {
-  padding: 20px;
-  font-size: 18px;
-  text-align: justify;
-  opacity: 0;
-  transition: all 2s ease;
-}
-
-.scrolled1 .text1 {
-  filter: blur(0);
-}
-
-.scrolled1 .content1 {
-  opacity: 1;
-}
-
-
-.container2 {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%);
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  transition: all 2s ease;
-}
-
-.text2 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-}
-
-.content2 {
-  padding: 20px;
-  font-size: 18px;
-  text-align: justify;
-  opacity: 0;
-  transition: all 2s ease;
-}
-
-.scrolled2 .text2 {
-  filter: blur(0);
-}
-
-.scrolled2 .content2 {
-  opacity: 1;
-}
-
-.typearea {
-  margin-top: 10%;
-  height: 100vh;
-}
-
-.typearea h1::before {
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-.typearea h1:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-  background: hsl(0, 100%, 90%);
-}
-
-.typearea h1::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
-  z-index: -1;
-  transition: transform .6s ease;
-  border-radius: 10px;
-}
-
-.typearea h1 {
-  position: relative;
-  font-size: 2rem;
-}
-
-
-.typearea-experience {
+.page2Exp {
+  margin-left: 20%;
+  margin-right: 20%;
   height: 100%;
-
 }
 
-.typearea_application {
-  margin-top: 5%;
+.page3layout {
   margin-left: 20%;
   margin-right: 20%;
   height: 100%;
 
 }
-
-.typearea body {
-  min-block-size: 100%;
-  min-inline-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  display: grid;
-  place-content: center;
-  font-family: system-ui, sans-serif;
+.page3_list_control{
+  columns: 2;
 }
 
 @media (orientation: landscape) {
@@ -721,44 +626,9 @@ span {
   }
 }
 
-.skills {
-  text-align: center;
-}
-
 .skill_wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
 
-.appgithub {
-  font-size: 1.5vw;
-}
-
-.resumePreview {
-  cursor: grab;
-}
-
-.tech-table {
-  column-count: 2;
-  display: flex;
-}
-
-.link {
-  position: fixed;
-  font-size: 1vw;
-  margin-left: 0%;
-  margin-top: 20%;
-  font-family: barbs_font1;
-  letter-spacing: 5px;
-  line-height: 180%;
-  color: black;
-  width: 12%;
-  list-style: none;
-  text-decoration: none
-}
-
-.link_menu {
-  list-style: none;
-  text-decoration: none
-}

@@ -9,6 +9,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import React from 'react';
 import Page1Design from './components/Page1Design';
 import pdf from './files/Seungil Choi - Resume.pdf';
+import Page2Exp from './components/Page2Exp';
 function App() {
 
   return (
@@ -16,7 +17,7 @@ function App() {
       <div className="link">
         <ul className="link_menu">
           <li>
-            <Link to='#home' style={{ textDecoration: 'none', color: "black" }}>
+            <Link className="nav-width" to='#home' style={{ textDecoration: 'none', color: "black" }}>
               To the Top
             </Link>
           </li>
@@ -31,13 +32,13 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to='#page3' style={{ textDecoration: 'none', color: "black" }}>
-              Applications
+            <Link to='#page2Exp' style={{ textDecoration: 'none', color: "black" }}>
+              Experience
             </Link>
           </li>
           <li className="nav-width" >
-            <Link to='#page4' style={{ textDecoration: 'none', color: "black" }}>
-              Cover Letter
+            <Link to='#page3' style={{ textDecoration: 'none', color: "black" }}>
+              Applications
             </Link>
           </li>
         </ul>
@@ -54,9 +55,10 @@ function App() {
 
 
         <Page2 />
+        <Page2Exp />
 
-        {/*   <Page3 />
-        <Page4 /> */}
+        <Page3 />
+        {/*   <Page4 /> */}
         <a href={pdf} download className="resume">Click to download my Resume</a>
       </div>
     </BrowserRouter>
