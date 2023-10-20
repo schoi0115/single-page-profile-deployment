@@ -5,12 +5,10 @@ import React, { Component } from "react";
 class Home extends Component {
     render() {
         return (
-            <div className="textarea_home">
+            <div className="textarea_home" id="home">
 
-                <br />
-                <br />
 
-                <div className="main_content" id="home">
+                <div className="main_content">
                     <div class="wrapper">
                         <div class="focus">
                             SeungIl Choi

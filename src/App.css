@@ -36,25 +36,25 @@
 
 /* Styles for screens with a width of at least 360px (typical for small Android phones) */
 @media screen and (min-width: 360px) {
-  .page1text {
+  .ifIneedit {
     min-width: 200px;
     /* Minimum width for the element on Android phones */
     max-width: 400px;
     /* Maximum width for the element on Android phones */
-    font-size: 4vw;
+
     /* Same font size for Android phones */
   }
 }
 
 /* Styles for screens with a width of at least 768px (typical for larger Android devices or tablets) */
 @media screen and (min-width: 768px) {
-  .page1text {
+  .ifIneedit {
     text-size-adjust: auto;
     min-width: 300px;
     /* Minimum width for the element on larger Android devices */
     max-width: 600px;
     /* Maximum width for the element on larger Android devices */
-    font-size: 4vw;
+
     /* Same font size for Android phones */
   }
 }
@@ -68,6 +68,13 @@
     opacity: 1;
     color: black
   }
+}
+
+@media (min-width: 360px) {
+  .smallScreen_control {
+    margin-left: 10vw;
+  }
+
 }
 
 html {
@@ -137,6 +144,10 @@ span {
   font-weight: bold;
 }
 
+.textarea_home {
+  height: 50vw;
+}
+
 .focus {
   font-size: 4vw;
   /* Adjust this value as needed */
@@ -159,16 +170,6 @@ span {
   margin-left: 2%;
   margin-top: 32%
 }
-
-/* .iam {
-  font-size: 8em;
-  color: black;
-  font-family: "barbs_font1";
-  font-weight: lighter;
-  margin-left: 25%;
-  position: absolute;
-  letter-spacing: 20px;
-} */
 
 .spring_body {
   margin-left: 45%;
@@ -397,7 +398,7 @@ span {
 
 .page1text {
   position: absolute;
-  font-size: 0.8vw;
+  font-size: 1vw;
   width: 20%;
   margin-left: 52%;
   margin-top: 0%;
@@ -430,10 +431,10 @@ span {
 
 .page2text {
   position: absolute;
-  font-size: 0.8vw;
+  font-size: 1vw;
   width: 20%;
   margin-left: 28%;
-  margin-top: 7.5%;
+  margin-top: 10.5%;
   text-align: right;
 }
 
@@ -464,10 +465,10 @@ span {
 
 .page3text {
   position: absolute;
-  font-size: 0.8vw;
+  font-size: 1vw;
   width: 20%;
-  margin-left: 52%;
-  margin-top: 15.4%;
+  margin-left: 52.4%;
+  margin-top: 21%;
   text-align: left;
 }
 
@@ -498,11 +499,11 @@ span {
 
 .page4text {
   position: absolute;
-  font-size: 0.8vw;
+  font-size: 1vw;
   width: 20%;
   text-align: center;
   width: 100%;
-  margin-top: 26%;
+  margin-top: 36%;
 }
 
 .page4text h4::before {
@@ -533,7 +534,7 @@ span {
 .lines1 {
   margin-left: 50%;
   position: absolute;
-  height: 25vw;
+  height: 34vw;
   background: rgb(13, 67, 21);
   padding: 0.25rem;
 
@@ -551,7 +552,7 @@ span {
 .lines3 {
   position: absolute;
   margin-left: 20%;
-  margin-top: 7.5%;
+  margin-top: 10.5%;
   background: rgb(135, 40, 50);
   padding: 0.25rem;
   width: 40%;
@@ -561,7 +562,7 @@ span {
   position: absolute;
   background: rgb(125, 125, 125);
   margin-left: 27%;
-  margin-top: 15%;
+  margin-top: 21%;
   padding: 0.25rem;
   width: 40%;
 
@@ -592,15 +593,50 @@ span {
 }
 
 .page2layout {
+
+  background-color: #3a3a3a;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
   font-size: 1.3vw;
   margin-left: 20%;
   margin-right: 20%;
-  height: 140%;
+  margin-top: 20vh;
+  height: 80vw;
+
 }
-.database_layout{
+
+.page2layout h2 {
+
+  text-decoration-line: underline;
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+.page2layout h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  background-color: #777;
+  height: 3vw;
+
+}
+.skill_wrapper {
+  display: grid;
+  columns: 3;
+  grid-template-columns: auto auto auto;
+}
+
+.techinical_skill_page {
+  margin-top: 500px;
+}
+
+
+.database_layout {
   columns: 3;
 }
-.tool_layout{
+
+.tool_layout {
   columns: 4;
 }
 
@@ -616,7 +652,8 @@ span {
   height: 100%;
 
 }
-.page3_list_control{
+
+.page3_list_control {
   columns: 2;
 }
 
@@ -625,10 +662,3 @@ span {
     grid-auto-flow: column;
   }
 }
-
-.skill_wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-

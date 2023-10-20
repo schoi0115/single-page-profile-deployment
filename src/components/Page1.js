@@ -6,9 +6,11 @@ class Page1 extends Component {
   render() {
     return (
 
-      <div className="typeare_personality">
+      <div className="techinical_skill_page">
+
+
         <div className="bio">
-          <br />
+
 
           <h2 className="skills">
             Technical Skills:
@@ -51,15 +53,14 @@ class Page1 extends Component {
               <ul>
                 <li>.Net</li>
               </ul>
-
-            </ul>
-            <ul>
+            
               <li>Ruby</li>
-              <ul>
-                <li>Ruby on Rails</li>
-              </ul>
+      
+
+
 
             </ul>
+
           </div>
 
 

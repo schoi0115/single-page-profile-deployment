@@ -8,7 +8,7 @@ function Page2() {
         <div className="page2layout" id="page2">
             <div>
                 <br />
-                <h2>
+                <h2 className="page2h2">
                     Technical Skills:
                 </h2>
                 <br />
@@ -47,15 +47,16 @@ function Page2() {
                         <ul>
                             <li>.Net</li>
                         </ul>
-
-                    </ul>
-                    <ul>
+                        <br />
                         <li>Ruby</li>
                         <ul>
                             <li>Ruby on Rails</li>
                         </ul>
 
+
+
                     </ul>
+
                 </div>
                 <br />
                 <div>
@@ -81,6 +82,7 @@ function Page2() {
                         <li>GitHub / GitLab</li>
                         <li>Chrome Dev Tools</li>
                         <li>Postman</li>
+                        <li>Sonar</li>
                         <li>Visual Studio</li>
                         <li>Linux</li>
                         <li>Ubuntu</li>

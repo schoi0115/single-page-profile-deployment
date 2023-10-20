@@ -43,7 +43,7 @@ function App() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className='smallScreen_control'>
 
 
         <Home />
