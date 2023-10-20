@@ -47,14 +47,13 @@ function Page2() {
                         <ul>
                             <li>.Net</li>
                         </ul>
+
                         <br />
+                        
                         <li>Ruby</li>
                         <ul>
                             <li>Ruby on Rails</li>
                         </ul>
-
-
-
                     </ul>
 
                 </div>

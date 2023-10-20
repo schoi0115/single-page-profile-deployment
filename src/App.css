@@ -606,8 +606,22 @@ span {
 
 }
 
-.page2layout h2 {
+.skill_wrapper li:hover {
+  background-color: #777;
+  border-radius: 5px;
+}
 
+.database_layout li:hover {
+  background-color: #777;
+  border-radius: 5px;
+}
+
+.tool_layout li:hover {
+  background-color: #777;
+  border-radius: 5px;
+}
+
+.page2layout h2 {
   text-decoration-line: underline;
   background-color: #222;
   padding: 20px;
@@ -621,6 +635,7 @@ span {
   height: 3vw;
 
 }
+
 .skill_wrapper {
   display: grid;
   columns: 3;
