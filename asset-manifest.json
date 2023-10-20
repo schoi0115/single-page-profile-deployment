@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/single-page-profile-deployment/static/css/main.422c9a71.css",
-    "main.js": "/single-page-profile-deployment/static/js/main.2be396a9.js",
+    "main.css": "/single-page-profile-deployment/static/css/main.e168cbde.css",
+    "main.js": "/single-page-profile-deployment/static/js/main.a84fd8fa.js",
     "static/js/787.ac51b21b.chunk.js": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js",
     "static/media/MechanicalDemoRegular-RpRGv.ttf": "/single-page-profile-deployment/static/media/MechanicalDemoRegular-RpRGv.41b714e4dafb4a0f9c90.ttf",
     "static/media/Seungil Choi - Resume.pdf": "/single-page-profile-deployment/static/media/Seungil Choi - Resume.24f7b742b9e18cb90c2f.pdf",
@@ -10,12 +10,12 @@
     "static/media/Slimbots-7ZJD.ttf": "/single-page-profile-deployment/static/media/Slimbots-7ZJD.8a01752e069df899b33c.ttf",
     "static/media/Slimbots-Kq0e.ttf": "/single-page-profile-deployment/static/media/Slimbots-Kq0e.06e4bff1dfca0e402287.ttf",
     "index.html": "/single-page-profile-deployment/index.html",
-    "main.422c9a71.css.map": "/single-page-profile-deployment/static/css/main.422c9a71.css.map",
-    "main.2be396a9.js.map": "/single-page-profile-deployment/static/js/main.2be396a9.js.map",
+    "main.e168cbde.css.map": "/single-page-profile-deployment/static/css/main.e168cbde.css.map",
+    "main.a84fd8fa.js.map": "/single-page-profile-deployment/static/js/main.a84fd8fa.js.map",
     "787.ac51b21b.chunk.js.map": "/single-page-profile-deployment/static/js/787.ac51b21b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.422c9a71.css",
-    "static/js/main.2be396a9.js"
+    "static/css/main.e168cbde.css",
+    "static/js/main.a84fd8fa.js"
   ]
 }
