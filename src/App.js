@@ -55,11 +55,12 @@ function App() {
 
 
         <Page2 />
+   
         <Page2Exp />
 
         <Page3 />
         {/*   <Page4 /> */}
-        <a href={pdf} download className="resume">Click to download my Resume</a>
+
       </div>
     </BrowserRouter>
 

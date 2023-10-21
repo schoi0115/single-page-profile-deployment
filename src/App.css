@@ -589,57 +589,67 @@ span {
   width: 8vw;
   background-color: white;
   border: solid 0.50rem pink;
+}
 
+.page2h2 {
+  text-align: center;
 }
 
 .page2layout {
 
   background-color: #3a3a3a;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
   border-radius: 10px;
-  font-size: 1.3vw;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 20vh;
-  height: 80vw;
+  margin-top: 20vh;
+
+  height: 100%;
+  min-width: 100px;
 
 }
 
-.skill_wrapper li:hover {
+.skill_layout li:hover {
   background-color: #777;
   border-radius: 5px;
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .database_layout li:hover {
   background-color: #777;
   border-radius: 5px;
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .tool_layout li:hover {
   background-color: #777;
   border-radius: 5px;
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
-.page2layout h2 {
-  text-decoration-line: underline;
-  background-color: #222;
-  padding: 20px;
+.text_center {
   text-align: center;
+  align-items: center;
 }
 
-.page2layout h3 {
-  text-align: center;
-  text-decoration-line: underline;
-  background-color: #777;
-  height: 3vw;
-
-}
-
-.skill_wrapper {
+.skill_layout {
   display: grid;
   columns: 3;
   grid-template-columns: auto auto auto;
+}
+
+.skill_text {
+  color: rgb(255, 255, 255);
+  /* 
+  overflow: hidden;
+  white-space: nowrap; */
+  font-size: 3vw;
+  text-shadow: 5px 5px #777777;
+  align-items: center;
+  text-align: center;
+  font-size: 5vw;
 }
 
 .techinical_skill_page {
@@ -652,7 +662,7 @@ span {
 }
 
 .tool_layout {
-  columns: 4;
+  columns: 3;
 }
 
 .page2Exp {
@@ -672,8 +682,69 @@ span {
   columns: 2;
 }
 
-@media (orientation: landscape) {
-  body {
-    grid-auto-flow: column;
+.text-container {
+
+
+  cursor: pointer;
+  width: 92%;
+  overflow: hidden;
+  white-space: nowrap;
+
+  align-items: center;
+
+}
+
+.page2h2 {
+  text-align: center;
+  align-items: center;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  /* 
+  overflow: hidden;
+  white-space: nowrap; */
+  align-items: center;
+  text-align: center;
+  font-size: 5vw;
+
+}
+
+
+/* .text:hover {
+  content: attr(data-text);
+  color: #969696;
+  text-shadow: #b9b9b9;
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 3vw;
+  text-align: right;
+} */
+
+
+/* .text.revealed::before {
+  width: 100%;
+} */
+
+/* .text-container:hover .text.revealed::before {
+  animation: none;
+}  */
+
+/* .text-container:hover .text::before {
+  width: 500%;
+  animation: revealText 2s steps(5000) forwards;
+} */
+
+@keyframes revealText {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
   }
 }

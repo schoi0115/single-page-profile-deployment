@@ -33,7 +33,7 @@ $target: black;
   width: 19vw;
 
   text-transform: uppercase;
-  letter-spacing: 0px;
+  letter-spacing: 2.8px;
   font-size: 5vw;
   clip: rect(0px, 19vw, 15vw, 0px);
   background: linear-gradient($target, $target 0) no-repeat,
@@ -60,12 +60,12 @@ $target: black;
 
 @keyframes mask {
   to {
-    transform: translateX(24vw);
+    transform: translateX(100%);
   }
 }
 
 @keyframes text {
   to {
-    transform: translateX(-22vw);
+    transform: translateX(-98%);
   }
 }
